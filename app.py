@@ -4,6 +4,7 @@ from player import Player
 from game_grid import GameGrid
 from button import Button
 
+#  This variable is used to manage the game states in order to manage the game correctly
 GAME_STATE = {
     "launching": "launching",
     "playing": "playing",
@@ -56,6 +57,7 @@ class ConnectFour:
                             self.game_ended(screen)
                         if self.played:
                             self.next_player()
+                            self.show_move(mouse_position, screen)
             pygame.display.update()
 
     def game_ended(self, screen):
@@ -135,11 +137,11 @@ class ConnectFour:
             row = self.grid.grid[:, column]
             find_place = False
             free_place_index = 0
-            while not find_place and free_place_index > -6:
+            while not find_place and free_place_index >= -6:
                 free_place_index -= 1
                 if row[free_place_index] == 0:
                     find_place = True
-            if free_place_index > -6:
+            if free_place_index >= -6:
                 row[free_place_index] = self.current_player
                 self.played = True
             return free_place_index
