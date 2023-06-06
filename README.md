@@ -10,6 +10,32 @@ Development of a Connect 4 Game software for the Applied System Software course 
 - Sevda Imanigheshlaghchaei - 230ADB033
 - Ahmad Foroughi - 230ADB034
 
+## How to Run
+1. Clone the repository
+```bash
+$ git clone https://github.com/Victordmss/DAfour
+```
+2. Go to the project folder
+```bash
+$ cd DAfour
+```
+3. Create a virtual environment
+```bash
+$ python3 -m venv venv
+```
+4. Activate the virtual environment
+```bash
+$ source venv/bin/activate
+```
+5. Install the requirements
+```bash
+$ pip install -r requirements.txt
+```
+6. Run the game
+```bash
+$ python3 main.py
+```
+
 ## User Manual
 
 ![](resources/image/launching_background.png)
