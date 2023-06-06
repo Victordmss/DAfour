@@ -4,6 +4,12 @@ Development of a Connect 4 Game software for the Applied System Software course 
 ### Link for the report:
 [Link](https://docs.google.com/document/d/1wj8dWIFPc39VEJFcaQ2we9zuJyPB9k3uuMuU6C9DiXs/edit?usp=sharing) for the report
 
+### Group Members
+- Victor Demessance - 230ADB010
+- Artur Henrique Allen Santos - 230ADB012
+- Sevda Imanigheshlaghchaei - 230ADB033
+- Ahmad Foroughi - 230ADB034
+
 ## User Manual
 
 ![](resources/image/launching_background.png)
